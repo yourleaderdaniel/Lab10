@@ -1,0 +1,44 @@
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+
+namespace Lab101
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+    })<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewBag.Title - YourApp</title>
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+        <header>
+            <!-- Хедер приложения -->
+        </header>
+
+        <div class="container">
+            @RenderBody() <!-- Содержимое отдельного представления будет рендериться здесь -->
+        </div>
+
+        <footer>
+            <!-- Футер приложения -->
+        </footer>
+
+        <script src="~/js/site.js"></script>
+    </body>
+</html>
+;
+    }
+}

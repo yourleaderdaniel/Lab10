@@ -1,0 +1,35 @@
+﻿@model Lab101.Models.ConsultationRegistration
+
+<h2>Регистрация на консультацию</h2>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label asp-for="FullName">Имя и Фамилия</label>
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="DesiredDate">Желаемая дата консультации</label>
+        <input asp-for="DesiredDate" type="date" />
+        <span asp-validation-for="DesiredDate" class="text-danger"></span>
+    </div>
+    <button type="submit">Отправить</button>
+    <div>
+        <label asp-for="Product">Продукт</label>
+        <select asp-for="Product" class="form-control">
+            <option value="">Выберите продукт</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Основы">Основы</option>
+        </select>
+        <span asp-validation-for="Product" class="text-danger"></span>
+    </div>
+
+</form>

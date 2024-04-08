@@ -1,0 +1,7 @@
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.AssemblyInfoInputs.cache
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.AssemblyInfo.cs
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.csproj.CoreCompileInputs.cache
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.RazorAssemblyInfo.cache
+C:\Users\sexyg\source\repos\Lab10_1\Lab10_1\obj\Debug\net6.0\Lab10_1.RazorAssemblyInfo.cs
